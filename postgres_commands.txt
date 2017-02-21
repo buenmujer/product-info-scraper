@@ -1,0 +1,26 @@
+#run these commands in terminal when connected to your Postgres database
+
+#\dt (to see what tables are in the database)
+#\d name of table (to see what columns are in the table)
+
+#to create a table:
+CREATE TABLE dog_food (
+     id SERIAL PRIMARY KEY,
+     name VARCHAR(255) NOT NULL,
+     product_id INTEGER NOT NULL,
+     price VARCHAR (15),
+     food_type VARCHAR (50),
+     life_stage VARCHAR (50),
+     health_consideration VARCHAR (50),
+     flavor VARCHAR (50),
+     primary_ingredient VARCHAR (50),
+     package_weight VARCHAR (50),
+     ingredients VARCHAR (2000),
+     ingredients2 VARCHAR (2000),
+     nutrition VARCHAR (2000),
+     nutrition2 VARCHAR (2000),
+     url VARCHAR (2000)            
+);
+
+#ALTER TABLE table_name ALTER COLUMN column_name DROP NOT NULL; (to allow null values within a column)
+#DROP TABLE table_name1, table_name2; (to drop a table from a database)
