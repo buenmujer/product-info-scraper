@@ -1,12 +1,12 @@
 ##CATS
 
-	#crawler
+#crawler
 crawler_base_url = "http://www.petsmart.com/cat/food-and-health/food/?srule=best-sellers&amp;pmin=0&amp;sz=24&amp;start="
 sleep = 3
 new_crawler_base_url = "http://www.petsmart.com"
 product_list_path = '/Users/karigoodman/git-archives/pet-products/data/raw/'
 
-	#scraper
+#scraper
 test_product_list2 = ['http://www.petsmart.com/cat/food-and-health/food/fancy-feast-classic-adult-cat-food-12865.html?cgid=200004', 'http://www.petsmart.com/cat/food-and-health/food/purina-friskies-classic-pate-cat-food-1610.html?cgid=200004']
 test_product_list2b = ['http://www.petsmart.com/cat/food-and-health/food/purina-friskies-classic-pate-cat-food-1610.html?cgid=200004','http://www.petsmart.com/cat/food-and-health/food/fancy-feast-classic-adult-cat-food-12865.html?cgid=200004']
 
@@ -16,9 +16,8 @@ product_urls = ['http://www.petsmart.com/cat/food-and-health/food/fancy-feast-cl
 
 #database
 #Define a DB and User name
-dbname = 'pet_products'
-username = 'karigoodman'
-
+dbname = ''
+username = ''
 
 ##DOGS
 dog_crawler_base_url = "http://www.petsmart.com/dog/food-and-health/food/#page_name=dog&link_section=subheader&link_name=food"
