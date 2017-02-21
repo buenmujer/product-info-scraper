@@ -16,7 +16,6 @@ product_urls = ['http://www.petsmart.com/cat/food-and-health/food/fancy-feast-cl
 dbname = ''
 username = ''
 
-
 ##DOGS
 dog_crawler_base_url = "http://www.petsmart.com/dog/food-and-health/food/#page_name=dog&link_section=subheader&link_name=food"
 sleep = 3
